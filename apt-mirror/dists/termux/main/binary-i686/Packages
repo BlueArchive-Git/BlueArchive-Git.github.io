@@ -1,0 +1,18 @@
+Package: fakesudo
+Version: 1.0
+Architecture: all
+Maintainer: BlueArchive-Git <3963871959@qq.com>
+Depends: fakeroot, dasel, jq, nano, bash
+Conflicts: sudo, tsu
+Filename: pool/main/f/fakesudo/fakesudo_1.0_all.deb
+Size: 2496
+MD5sum: 0673ee4038629a8b8dd42a1393556ae5
+SHA1: 588ac7beee2031fa4523de2e8d3e78eef2659040
+SHA256: d9604f85475d26bf79c86212949c09aa4e970c24ef06db2e1153f42ef3dffaef
+Section: utils
+Priority: optional
+Description: A fake sudo implementation using fakeroot
+ A simple sudo replacement for Termux that uses fakeroot
+ to simulate root privileges. Requires fakeroot, dasel, jq,
+ and nano for configuration.
+
