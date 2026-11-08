@@ -1,3 +1,10 @@
+Origin: BlueArchive-Git
+Label: APT repo test
+Suite: debian
+Codename: debian
+Architectures: aarch64 arm x86_64 i686 all
+Components: main
+Description: BlueArchive-Git's Debian packages APT mirror
 Date: Sun, 08 Nov 2026 10:29:13 +0000
 MD5Sum:
  e95d676cfff37057e8d43a20f66d29a4               38 Release

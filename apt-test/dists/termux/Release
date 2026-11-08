@@ -1,3 +1,10 @@
+Origin: BlueArchive-Git
+Label: APT repo test
+Suite: termux
+Codename: termux
+Architectures: aarch64 arm x86_64 i686 all
+Components: main
+Description: BlueArchive-Git's Termux packages APT mirror
 Date: Sun, 08 Nov 2026 10:29:14 +0000
 MD5Sum:
  7cd2bb41b91c26c6589e085b1d5dee83               38 Release
