@@ -4,7 +4,7 @@ Architecture: all
 Maintainer: BlueArchive-Git <3963871959@qq.com>
 Depends: fakeroot, dasel, jq, nano, bash
 Conflicts: sudo, tsu
-Filename: pool/main/f/fakesudo/fakesudo_1.0_all.deb
+Filename: pool/termux/main/f/fakesudo/fakesudo_1.0_all.deb
 Size: 2496
 MD5sum: 0673ee4038629a8b8dd42a1393556ae5
 SHA1: 588ac7beee2031fa4523de2e8d3e78eef2659040
