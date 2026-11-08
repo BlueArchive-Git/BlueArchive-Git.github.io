@@ -1,9 +1,13 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Date: Sun, 08 Nov 2026 12:21:20 +0000
+Codename: termux
+Date: Sun, 08 Nov 2026 12:29:30 +0000
+Label: BlueArchive-Git
+Origin: BlueArchive-Git
+Suite: termux
 MD5Sum:
- 58d5856806d1431d25ee9888ce4c9adf               38 Release
+ 9c4c679dea23c339341e1ddec0ea5e16              116 Release
  9cee24e18ba6ebdf7abb1a5d03e56405              619 main/binary-aarch64/Packages
  f2aa01fb7a1e7af995eb67dc9de7388b              440 main/binary-aarch64/Packages.gz
  9737892da317f99bb0a511c8a2aaf95d              512 main/binary-aarch64/Packages.xz
@@ -20,7 +24,7 @@ MD5Sum:
  079c0778186fd191e6c2d36e5e55cc7d              440 main/binary-x86_64/Packages.gz
  9737892da317f99bb0a511c8a2aaf95d              512 main/binary-x86_64/Packages.xz
 SHA1:
- 27400a8c9b860ac3da67a07b7a2691dda379ef2b               38 Release
+ 8201820652f11be41fc97e37bd31e6e381d34385              116 Release
  41ddeed37b933ec230890c1b6bf806c19872a38e              619 main/binary-aarch64/Packages
  b69e5c747f77925f55a5b6e94fb02e8513274dcd              440 main/binary-aarch64/Packages.gz
  61ef658c8ccf3c3b63e5aeaa5ef50a6a5a4209b9              512 main/binary-aarch64/Packages.xz
@@ -37,7 +41,7 @@ SHA1:
  271f916d33eeb54b7e0b8b31fd5689e5b128ee9a              440 main/binary-x86_64/Packages.gz
  61ef658c8ccf3c3b63e5aeaa5ef50a6a5a4209b9              512 main/binary-x86_64/Packages.xz
 SHA256:
- d3a14e23ccd415e1b1b5f98dd3fc2a62c5b5ca774f31d157c054b3be3b0dfc4b               38 Release
+ 39b98bd7d6c7a83c46c7c7d5c2154265a658457938b91f3895e91383e8465caf              116 Release
  e3d1a1ebd452fd2bd75985f5f1a5e3eba0d5e3dc3de16241dcd77d3ca752825b              619 main/binary-aarch64/Packages
  b9521fd9565f0595269cd26fe2b39cf087ea35830d0b221543437ed7b90c8102              440 main/binary-aarch64/Packages.gz
  746fdffa30cc9a4b604a883928e1b0a71f0e419997fcf624eae853433d4fbe0c              512 main/binary-aarch64/Packages.xz
@@ -54,7 +58,7 @@ SHA256:
  64d3a49d2b294c28b32ecfbbe93006cbdb997a0a9266470b1a690856db12bde9              440 main/binary-x86_64/Packages.gz
  746fdffa30cc9a4b604a883928e1b0a71f0e419997fcf624eae853433d4fbe0c              512 main/binary-x86_64/Packages.xz
 SHA512:
- e605e981ad908146ec346feea8c5e4c72078a17fdf2a8b52f76adecfa8479ce53f49f92e7a8ba771fc1399e17d45db5e22ba58600ce6e2a30956a5c43b83da65               38 Release
+ eb8d1ca307ed6ecd1e113644797f915e30d58bf6502bf30dde5546bb75104ff81ee1f47e0c82a3475637093183e05ad41a2ce3bb6aed05d0174a8ed7098b526f              116 Release
  029cc681d6381b3c260e832f9c1767692b57d75a238850803b09637c0df2cc768edb4b90389296c84fd9a159019f75a8b960ca167e05e46803759a3b88e14ea1              619 main/binary-aarch64/Packages
  7713e2b2122c2f53477b8822a41d8421a8f58f973b2df58bd8e1e10dab51e332b438eaa2c2239a11707afed7e3c1455a2d58c7052e75a2c2d1070e6a8507a9cd              440 main/binary-aarch64/Packages.gz
  89753f3f1a98beb16cffab6db875677790753422b5414dfa842b270b2c16f02837cd5847013a41bb8dc519e71374196ffb0e07cf6a4597e7424ef863b0491492              512 main/binary-aarch64/Packages.xz
@@ -72,18 +76,18 @@ SHA512:
  89753f3f1a98beb16cffab6db875677790753422b5414dfa842b270b2c16f02837cd5847013a41bb8dc519e71374196ffb0e07cf6a4597e7424ef863b0491492              512 main/binary-x86_64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAEBCAA5FiEEL08K8u7oHVUln6MQhoIEuU4AhUgFAmrwaYcbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMywyAAoJEIaCBLlOAIVIQSEP/1JeDMYtt1mFnPdr4Cph
-znDS1Rg6/Y47OOWXlkE1qAe/HEFMt16mBG3QRlxpYcOFaew6bSHsvWevvgY8CYCE
-SX+yIJfp1ClemyjTSDVHfkTYvKee/VGMs14y1Nh0bUinHdicT0pnVA3pouHgV5x/
-oaBo17ceCERT+/uZO6zDAVSNZgz9rIbXCTIc5xISsf3wnykPpl8X1w+vXePZf0pe
-o5za/tVqabNauDyxxCzeSrnxHJeWx7scyx+34lQy6IkmDbUMf82CIhXLRy8FlUEd
-WDNh/BJ2hk/9487QVlGPfil/6BCzgRd4lwS8q0rucXvt+OUs/KI0R37+YiUfN2we
-eE72zdCXsipHBNc1VYv4YkELw6MT76Y71bhotIkNYP0LhtAEPj7C0UQhr7WUvf17
-0cS9p2sGhumdIkenVzmL22NR6igMA5SpNJudS8MSE+RajUif8YaOH5Vwohw1DHsy
-D+u4Jz79+t0cHjlIn6YTktqRQAqm1YPkYfAUrCxHzZf5oX8hjhmoEwBra8sMsj++
-Z4gpDiXco/NIbpPIDBMiEMXgn3MdDTH3vockfYCZ05VoWVglaDAHq6Pdo7GwLGMr
-OyQblGvee6g0F1oYPLQI3T7Mqx7DH087KFEQ49X/QBCCOWhhAB2NsuV8Gh35//xa
-YJuUWeeJ2TZaQGGaLHMJn05H
-=8cBm
+iQJPBAEBCAA5FiEEL08K8u7oHVUln6MQhoIEuU4AhUgFAmrwazMbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMywyAAoJEIaCBLlOAIVIP3YP+gMF0SEhp8tKB5BrSVHB
+DX33QbCo/SerXcJNzUc38lu+I56RyoO6w2Dzz2z7v5JocpXQVmoFjdp4e4xonB1u
+b3ywmGSJdoHqxnCHrKtbMP94dFi+FNfFmKJaUCc+Mr5+osEqE7Er2nlwcdG6+HBV
++JWdd9yNZbMwXlkpC6h8tk8zuxyoSJm2fhCxYC3heBwUQD8Rp8IWQpD78T3al2KG
+vkySn5wTzsEnLva7gOy9fvSMjVf646Onuq2iAHU1t+7TXtp3x9u4V233qdLrFfWE
+PAm8Ki5sJhFwTr9rZTubGCRoNiJJoflZ13DUWalCQ/tRLolkaB1V+86ZNs5oKER5
+kjRPKoxml3nJQWHok/mSOzveuTx2OV5mY/Qvg83CDIIq3+eCOb8gu48cV94BLLyt
+2XVa69LO66eLb5fTRyo9Sy4WtwzdICh1Mo5//yJ5kGhdwz8CzbGM90UKJGEK/KyN
+egAOo/c6v8zd9dW6FALZytv2JuGLpJkmud3euEMFDvHDuqyUsRUdm5C1rkgQFIfG
+fz7DtSqYbkuUVgD0HvCKeYvomjp32CtXc7wlGRobjIkx2MyLZt+PUf7cHpOlWDmq
+cuXX1WNE4RMOQQ+Nb71s4vOH80E/UP5ZeXFmwAyWNzAX5lySlfOzol3yRm17YrCP
+6FnSdZTt6EVd7HAgz3iRQ4aG
+=5o1c
 -----END PGP SIGNATURE-----
