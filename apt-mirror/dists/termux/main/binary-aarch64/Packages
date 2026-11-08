@@ -16,3 +16,17 @@ Description: A fake sudo implementation using fakeroot
  to simulate root privileges. Requires fakeroot, dasel, jq,
  and nano for configuration.
 
+Package: hello-world
+Version: 0.1.0
+Architecture: all
+Maintainer: BlueArchive-Git <3963871959@qq.com>
+Filename: pool/termux/main/h/hello-world/hello-world_0.1.0_all.deb
+Size: 844
+MD5sum: 693f3c2c534344fd3a14931e81542848
+SHA1: 07890b88fb59c6e177ac34fca88dc8865823d133
+SHA256: e93f0c8fb2f0990ac1ea2e6525b3c8d8ef4784dceb17698f5123d294db9c724b
+Section: utils
+Priority: optional
+Description: hello-world test package
+ Minimal test package.
+
