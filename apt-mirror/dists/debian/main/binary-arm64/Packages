@@ -1,0 +1,15 @@
+Package: msd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: BlueArchive-Git <3963871959@qq.com>
+Depends: curl, aria2
+Filename: pool/debian/main/m/msd/msd_1.0.0-1_all.deb
+Size: 2116
+MD5sum: fff815a909bd73baf7deb47f0cc83f60
+SHA1: 9625988989c02a75a2c8c08b1135eba234286cb3
+SHA256: 6ed956ab1eb5299f6ba2599bb166816e7ffc92a907369c08841411ecb7efe820
+Section: utils
+Priority: optional
+Description: ModelScope model downloader
+ A shell script to download model files from ModelScope using aria2.
+

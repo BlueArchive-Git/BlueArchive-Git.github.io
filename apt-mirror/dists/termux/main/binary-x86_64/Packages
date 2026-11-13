@@ -30,3 +30,18 @@ Priority: optional
 Description: hello-world test package
  Minimal test package.
 
+Package: msd
+Version: 1.0.0-1
+Architecture: all
+Maintainer: BlueArchive-Git <3963871959@qq.com>
+Depends: curl, aria2
+Filename: pool/termux/main/m/msd/msd_1.0.0-1_all.deb
+Size: 2164
+MD5sum: a611243033def055279d6a98b602665d
+SHA1: b4cd0c5e543e4a211063ade956e2fe82f0a31860
+SHA256: 830ac3dcde7fce7ced3d3ea06eff6ef125d495dac13865d1af5fa4b7ff771291
+Section: utils
+Priority: optional
+Description: ModelScope model downloader
+ A shell script to download model files from ModelScope using aria2.
+
