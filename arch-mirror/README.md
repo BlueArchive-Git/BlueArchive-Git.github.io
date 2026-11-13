@@ -10,7 +10,10 @@ BlueArchive-Git Arch Linux 软件仓库
    cd arch-mirror/x86_64
    repo-add -n -R bluearchive.db.tar.gz *.pkg.tar.zst
 
-3. 提交并推送：
+3. 运行 gen-index.sh 生成 HTML 页面 ：
+   ./gen-index.sh
+
+4. 提交并推送：
    git add arch-mirror/x86_64
    git commit -m "feat(arch): update packages"
    git push
