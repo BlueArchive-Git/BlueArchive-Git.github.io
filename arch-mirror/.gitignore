@@ -1,0 +1,8 @@
+*
+
+!*.pkg.tar.zst
+!bluearchive.db*
+!*.html
+!.gitignore
+
+build/
