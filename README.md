@@ -91,6 +91,7 @@ sudo pacman -Sy
 sudo pacman -S <package-name>
 ```
 
-
+---
+And, this is my GitHub Pages, too.
 ---
 *Copyright © 2026 BlueArchive-Git, alittleshark-dev. All software packages are copyright of their respective owners.*
