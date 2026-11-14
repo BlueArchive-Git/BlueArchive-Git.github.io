@@ -20,7 +20,15 @@ All software packages in this repository originate from their respective upstrea
 
 ## 1. Add GPG Key | 添加 GPG 密钥
 
-### Debian GNU/Linux & Termux (Optional | 可选)
+### Debian GNU/Linux (Optional | 可选)
+*Skip if using `trusted=yes` (若使用 `trusted=yes` 则跳过)*
+
+
+```bash
+curl -fsSL https://bluearchive-git.github.io/apt-mirror/bluearchive-git.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/bluearchive-git.gpg
+```
+
+### Termux (Optional | 可选)
 *Skip if using `trusted=yes` (若使用 `trusted=yes` 则跳过)*
 
 
@@ -45,9 +53,9 @@ deb https://bluearchive-git.github.io/apt-mirror/ suite main
 
 
 > **Note | 注：**
-> * For Debian GNU/Linux users, use `sudo` and remove the `$PREFIX` variable from the path.
+> * For Debian GNU/Linux users, maybe you should use `sudo`.
 > * Replace the `suite` field with your appropriate release codename (e.g., `debian` or `termux`).
-> * Debian 用户需使用 `sudo` 并去掉路径中的 `$PREFIX` 变量；请自行将 `suite` 字段修改为对应的代号（如 `debian` 或 `termux`）。
+> * Debian 用户在修改配置文件时可能需要 `sudo` ，请自行将 `suite` 字段修改为对应的代号（如 `debian` 或 `termux`）。
 
 ### Arch Linux
 
@@ -62,11 +70,18 @@ Server = https://bluearchive-git.github.io/arch-mirror/x86_64
 
 ## 3. Update Package Lists | 更新软件包
 
-### Debian GNU/Linux & Termux
+### Debian GNU/Linux
 
 ```bash
 sudo apt update
 sudo apt install <package-name>
+```
+
+### Termux
+
+```bash
+pkg update
+pkg install <package-name>
 ```
 
 ### Arch Linux
