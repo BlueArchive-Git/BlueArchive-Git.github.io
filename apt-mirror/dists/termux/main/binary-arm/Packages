@@ -16,6 +16,28 @@ Description: A fake sudo implementation using fakeroot
  to simulate root privileges. Requires fakeroot, dasel, jq,
  and nano for configuration.
 
+Package: fisher
+Version: 1.0.0
+Architecture: all
+Maintainer: BlueArchive-Git <3963871959@eqq.com>
+Installed-Size: 12
+Depends: fish, curl
+Filename: pool/termux/main/f/fisher/fisher_1.0.0_all.deb
+Size: 1328
+MD5sum: 5f13575e98ddfa5b8dc4d65be7f35237
+SHA1: d442168e2534d246f8b9a6ed0814f67f5a30f79c
+SHA256: 2d37fb9d1924f3c8115b0a5bf7b6d992f215433169bfc4aa0f56f3732aae4378
+Section: utils
+Priority: optional
+Homepage: https://github.com/jorgebucaran/fisher
+Description: Fish shell plugin manager (bootstrap package)
+ This package bootstraps the fisher plugin manager for the Fish shell
+ by downloading and installing fisher into the user's fish configuration
+ during package configuration.
+ .
+ On removal, fisher itself is removed; on purge, all fisher-managed
+ plugins are removed as well.
+
 Package: hello-world
 Version: 0.1.0
 Architecture: all
