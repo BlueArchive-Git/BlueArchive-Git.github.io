@@ -3,7 +3,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 cd "$ROOT"
 
-KEYID=868204B94E008548
+KEYID=9E36EB18F6D80F1F
 SUITES=(termux debian)
 
 declare -A ARCH=(

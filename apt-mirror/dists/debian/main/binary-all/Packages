@@ -1,3 +1,17 @@
+Package: hello-world
+Version: 0.1.0
+Architecture: all
+Maintainer: BlueArchive-Git <3963871959@qq.com>
+Filename: pool/debian/main/h/hello-world/hello-world_0.1.0_all.deb
+Size: 828
+MD5sum: 867510f5ff735a27c400ffbe70adb6b9
+SHA1: dbcba8a3945de15b91db040ee9f212c13e69770d
+SHA256: 3eafc9dfd44870f43bbecf55050355b22cefb82de02e363f068ce2fd314c78ac
+Section: utils
+Priority: optional
+Description: hello-world test package
+ Minimal test package.
+
 Package: msd
 Version: 1.0.0-1
 Architecture: all
