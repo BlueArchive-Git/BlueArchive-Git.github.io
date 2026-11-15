@@ -5,10 +5,10 @@ Maintainer: BlueArchive-Git <3963871959@qq.com>
 Depends: fakeroot, dasel, jq, nano, bash
 Conflicts: sudo, tsu
 Filename: pool/termux/main/f/fakesudo/fakesudo_1.0_all.deb
-Size: 2496
-MD5sum: 0673ee4038629a8b8dd42a1393556ae5
-SHA1: 588ac7beee2031fa4523de2e8d3e78eef2659040
-SHA256: d9604f85475d26bf79c86212949c09aa4e970c24ef06db2e1153f42ef3dffaef
+Size: 2504
+MD5sum: 6f7788e7d72396c4dec054b4b3696561
+SHA1: 4c1c55eea07aee5bf850bb3cc8ec38cd78523a58
+SHA256: 4b73520c8d756bde929c34b1b79bd54fb1ded6a93e4cf225fc8c0fc995c795a4
 Section: utils
 Priority: optional
 Description: A fake sudo implementation using fakeroot
@@ -36,10 +36,10 @@ Architecture: all
 Maintainer: BlueArchive-Git <3963871959@qq.com>
 Depends: curl, aria2
 Filename: pool/termux/main/m/msd/msd_1.0.0-1_all.deb
-Size: 2164
-MD5sum: a611243033def055279d6a98b602665d
-SHA1: b4cd0c5e543e4a211063ade956e2fe82f0a31860
-SHA256: 830ac3dcde7fce7ced3d3ea06eff6ef125d495dac13865d1af5fa4b7ff771291
+Size: 2180
+MD5sum: d32966568897229680d4dfb421c92d46
+SHA1: 95ad728c37896639ee429330ca6b65ce63c84f30
+SHA256: ce2dc0f95d2a601f9908a50312195c148522fa25f633d551d182d4fe3358a8c3
 Section: utils
 Priority: optional
 Description: ModelScope model downloader
