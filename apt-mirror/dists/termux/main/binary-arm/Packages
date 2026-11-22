@@ -23,10 +23,10 @@ Maintainer: BlueArchive-Git <3963871959@eqq.com>
 Installed-Size: 12
 Depends: fish, curl
 Filename: pool/termux/main/f/fisher/fisher_1.0.0_all.deb
-Size: 1328
-MD5sum: 5f13575e98ddfa5b8dc4d65be7f35237
-SHA1: d442168e2534d246f8b9a6ed0814f67f5a30f79c
-SHA256: 2d37fb9d1924f3c8115b0a5bf7b6d992f215433169bfc4aa0f56f3732aae4378
+Size: 1348
+MD5sum: 67a9b951bd7de6562d1f3f57b745bf8b
+SHA1: 7fae067678f03f2692352a65f5670e655a0ec088
+SHA256: a234f26053f28ec851f81576556ccfc9205ae836b0959de49c3b70992daa7bd8
 Section: utils
 Priority: optional
 Homepage: https://github.com/jorgebucaran/fisher

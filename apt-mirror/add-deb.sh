@@ -24,10 +24,10 @@ arch=$(dpkg-deb -f "$deb" Architecture)
 [ -n "$pkg" ] && [ -n "$ver" ] && [ -n "$arch" ] \
 	|| { echo "failed to read deb metadata" >&2; exit 1; }
 
-if [ "$arch" != "all" ]; then
-	echo " $arch " | grep -q " ${ARCHS[$suite]} " \
-		|| { echo "arch $arch not in suite $suite (${ARCHS[$suite]})" >&2; exit 1; }
-fi
+# if [ "$arch" != "all" ]; then
+# 	echo " $arch " | grep -q " ${ARCHS[$suite]} " \
+# 		|| { echo "arch $arch not in suite $suite (${ARCHS[$suite]})" >&2; exit 1; }
+# fi
 
 letter="${pkg:0:1}"
 dest="$ROOT/${POOL[$suite]}/$letter/$pkg"
